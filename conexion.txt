@@ -1,0 +1,11 @@
+import pymysql
+connection = pymysql.connect(
+    host='Hakotaro.mysql.pythonanywhere-services.com',
+    user='Hakotaro',
+    password='chunchunmaru',
+    database='registroautos'
+)
+print("Conexión exitosa!")
+connection.close()
+
+/home/Hakotaro/app.py
